@@ -9,7 +9,7 @@
   </div>
   <br /><br />
   <% END %>
-  
+
   <% IF params.removed %>
   <div class="msgBox">
     The record was removed successfully!
@@ -20,7 +20,7 @@
 
 <div class="body">
   <center>
-    [&nbsp;<a class="bracketButton" href="records/add">add record</a>&nbsp;]
+    <a class="bracketButton" href="records/add">add record</a>
   </center>
 
   <% IF records.size > 0 %>
@@ -63,7 +63,7 @@
       </td>
       <td>
         <form method="POST" action="records/<% r.sid %>/remove">
-          [&nbsp;<button class="textButton" action="submit">remove</button>&nbsp;]
+          <button class="textButton" action="submit">remove</button>
         </form>
       </td>
     </tr>

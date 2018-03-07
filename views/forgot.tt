@@ -22,6 +22,6 @@
 		<label for="email">Email address:</label>
 		<input type="email" name="email" id="email" value="<% params.email | html_entity %>"/>
 		<br />
-		[&nbsp;<button action="submit" class="textButton">submit</button>&nbsp;]
+		<button action="submit" class="textButton">submit</button>
 	</form>
 </div>

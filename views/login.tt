@@ -55,9 +55,9 @@
 			</tr>
 		</table>
 		<br />
-		[&nbsp;<button action="submit" class="textButton">log&nbsp;in</button>&nbsp;]
-		[&nbsp;<a href="index" class="bracketButton">go&nbsp;back</a>&nbsp;]
+		<button action="submit" class="textButton">log&nbsp;in</button>
+		<a href="index" class="bracketButton">go&nbsp;back</a>
 		<br /><br />
-		[&nbsp;<a href="forgot" class="bracketButton">recover forgotten password</a>&nbsp;]
+		<a href="forgot" class="bracketButton">recover forgotten password</a>
 	</form>
 </div>

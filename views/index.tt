@@ -10,6 +10,6 @@
 	<p>You can <a href="charter">read our charter</a> for more information and details on how to report abuse of cybNIC services.</p>
 	<p>Create or log in to an account in order to register or update .cyb domains.</p>
 	<center>
-		<p>[&nbsp;<a class="bracketButton" href="login">log&nbsp;in</a>&nbsp;]&nbsp;&nbsp;[&nbsp;<a class="bracketButton" href="register">register</a>&nbsp;]</p>
+		<p><a class="bracketButton" href="login">log&nbsp;in</a>&nbsp;&nbsp;<a class="bracketButton" href="register">register</a></p>
 	</center>
 </div>

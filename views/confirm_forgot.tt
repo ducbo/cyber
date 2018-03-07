@@ -44,6 +44,6 @@
 			</tr>
 		</table>
 		<br />
-		[&nbsp;<button class="textButton" action="submit">update</button>&nbsp;]
+		<button class="textButton" action="submit">update</button>
 	</form>
 </div>

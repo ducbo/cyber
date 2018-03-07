@@ -16,12 +16,13 @@ plugins:
     dbname: 'db.sqlite'
 
 stylesheets:
-  default: "cyberpunk"
+  default: "modern"
   available:
     - "cyberpunk"
     - "light"
+    - "modern"
 
-tld: 'cyb'
+tld: 'o'
 
 reserved_domains:
   # use lowercase please
@@ -31,17 +32,33 @@ reserved_domains:
   - "register"
   - "nic"
   - "reg"
+  - "cyberman"
+  - "moderntld"
+  - "o"
+  - "opennicservers"
+  - "blogs"
+  - "web"
+  - "example"
+  - "test"
+  - "tld"
+  - "modern"
+  - "search"
+  - "mail"
+  - "ns1"
+  - "ns2"
+  - "ns3"
+  - "ns4"
 
 zonewriter:
   # Values used for SOA
-  ns: 'ns12.opennic.glue.'
-  responsible: 'hostmaster.opennic.cyb.'
-  file: '/var/nsd/zones/master/cyb'
+  ns: 'ns11.opennic.glue.'
+  responsible: 'hostmaster.moderntld.o.'
+  file: '/var/cache/bind/master/o'
   include:
     # Optionally, you can have the zonewriter include another file
     # in the zone, which allows you to define some records manually
-    enabled: 1
-    file: 'human_cyb'
+    enabled: 0
+    file: 'human_o'
   # if true, written zones will be checked with nsd-checkzone, just in case
   # requires nsd to be installed and nsd-checkzone to be in path
   validate: 1
@@ -49,8 +66,8 @@ zonewriter:
 mail:
   enabled: 1
   # Currently, the local MTA is used and there's no config option
-  from: 'cybnic@uptime.party'
-  baseurl: 'http://opennic.cyb'
+  from: 'register@moderntld.o'
+  baseurl: 'http://register.o'
 
 whoissrv:
   # Only required if whoissrv is going to be run
@@ -60,4 +77,4 @@ whoissrv:
   motdfile: "motd.txt"
   drop-uid: 999
   drop-gid: 999
-  registrar-urls: "http://opennic.cyb, https://cyb.uptime.party"
+  registrar-urls: "http://register.o, https://register.moderntld.net"
