@@ -27,7 +27,7 @@
 <% END %>
 
 <div class="body">
-	<em>Adding a record for <% domain.name | html_entity %>.<% vars.config.tld %></em>
+	<em>Adding a record to <% domain.name | html_entity %>.<% vars.config.tld %></em>
 
 	<form method="POST" class="login">
 		<table class="domains">

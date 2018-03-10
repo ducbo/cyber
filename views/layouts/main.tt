@@ -6,7 +6,7 @@
 		<% IF redir %>
 		<meta http-equiv="refresh" content="0;<% redir %>" />
 		<% END %>
-		<title>cybNIC</title>
+		<title>ModernTLD</title>
 		<link rel="stylesheet" type="text/css" href="/css/<% vars.stylesheet %>.css" />
 	</head>
 	<body>
@@ -34,7 +34,7 @@
 			<div class="body">
 				<center>
 					<div class="msgBox warning">
-						<h3>Warning! Achtung!</h3>
+						<h3>Warning!</h3>
 						The zone produced by the zone writer was found to be invalid by nsd; something has gone wrong! Please rectify the problem, and this message will disappear.
 					</div>
 				</center>
